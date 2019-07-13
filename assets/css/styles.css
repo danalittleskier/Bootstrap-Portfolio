@@ -21,6 +21,7 @@ body {
 .midsection{
     background-color: #ffffff;
     min-height: calc(100vh - 70px);
+    margin-bottom: 20px;
 }
 h1 {
     color:#ffffff;
@@ -67,7 +68,7 @@ a:link {
 
 .footer {
     clear: both;
-    height: 25px;
+    height: 50px;
     margin-top: 10px;
     font-size: 0.5em;
     background: #666666;
