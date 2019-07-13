@@ -8,6 +8,12 @@ body {
     line-height: 150%;
     
 }
+#bio-image {
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+}
 .container {
     width: 960px;
 
@@ -42,3 +48,18 @@ a:link {
     margin-left: 5px;
   }
   
+  .imagelabel {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    width: 125px;
+    height: 25px;
+    bottom: 10px;
+    z-index: 2;
+}
+.imagecontainer {
+    position: relative;
+    margin: 10px;
+}
